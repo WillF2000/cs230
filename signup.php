@@ -10,7 +10,7 @@ require "includes/header.php"
                 <div class="signup-form">
                     <form action="includes/signup-helper.php" method="post">
 
-                        <h1 class="h3 mb-3 font-weight-normal">Please sign un</h1>
+                        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
                         <p class="hint-text">Create your account!</p>
                         <div class="form-group">
                             <div class="row">
