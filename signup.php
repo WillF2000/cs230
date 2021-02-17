@@ -10,7 +10,7 @@ require "includes/header.php"
                 <div class="signup-form">
                     <form action="includes/signup-helper.php" method="post">
 
-                        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                        <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
                         <p class="hint-text">Create your account!</p>
                         <div class="form-group">
                             <div class="row">
@@ -34,7 +34,7 @@ require "includes/header.php"
                         <input type="password" id="inputPassword" class="form-control" name="con-pwd" placeholder="Confirm Password"
                             required>
 
-                        <button class="btn btn-lg btn-outline-danger btn-block" name="signup-submit" type="submit">Sign in</button>
+                        <button class="btn btn-lg btn-outline-danger btn-block" name="signup-submit" type="submit">Sign up</button>
                         <p class="mt-5 mb-3 text-muted">&copy; 2020-9999</p>
 
                     </form>
