@@ -5,7 +5,7 @@ session_start();
 define('KB', 1024);
 define('MB', 1048576);
 
-if (issert($_POST['prof-submit'])) {
+if (isset($_POST['prof-submit'])) {
     $uname = $_SESSION['uname'];
     $file = $_FILES['prof-image'];
     $file_name = $file['name'];
@@ -34,7 +34,7 @@ if (issert($_POST['prof-submit'])) {
     else {
         $new_name = uniqid('',true).".".$ext;
         $destination = '../profiles/'.$new_name;
-        $sql = "UPDATE profiles SSET profpic='$destination' WHERE uname = '$uname'";
+        $sql = "UPDATE profiles SET profpic='$destination' WHERE uname = '$uname'";
         mysqli_query($conn, $sql);
 
         move_uploaded_file($file_tmp_name, $destination);
