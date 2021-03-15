@@ -39,7 +39,7 @@ session_start();
                 <a class="nav-link" href="includes/logout.php">Logout</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="galleru.php">Gallery</a>
+                <a class="nav-link" href="gallery.php">Gallery</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="profile.php">Profile</a>
